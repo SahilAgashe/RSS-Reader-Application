@@ -19,3 +19,7 @@ https://www.cnet.com/rss/news/
  2.I have added default image url which is from online url "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_question_mark_icon.svg/100px-Blue_question_mark_icon.svg.png" whenever there is not image url available in RSS Item.
  3.I have added Indicator for loading Rss Item table rows.
  4.Able to run on any iOS Device in both horizontal and portrait mode.
+ 
+ # Output
+ 
+![Screenshot from 2023-04-22 15-00-34](https://user-images.githubusercontent.com/90738086/233775813-1cb584dc-269b-4705-975f-fb79407933a3.png)
