@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		818EEDE02B07C94700D53CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818EEDDF2B07C94700D53CA2 /* Main.storyboard */; };
+		818EEDE22B07C94E00D53CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818EEDE12B07C94E00D53CA2 /* LaunchScreen.storyboard */; };
 		9A8A58E229B5BCCD00E97101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A58E129B5BCCD00E97101 /* AppDelegate.m */; };
 		9A8A58E529B5BCCD00E97101 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A58E429B5BCCD00E97101 /* SceneDelegate.m */; };
 		9A8A58E829B5BCCD00E97101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A58E729B5BCCD00E97101 /* ViewController.m */; };
-		9A8A58EB29B5BCCD00E97101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A58E929B5BCCD00E97101 /* Main.storyboard */; };
 		9A8A58ED29B5BCCE00E97101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A58EC29B5BCCE00E97101 /* Assets.xcassets */; };
-		9A8A58F029B5BCCE00E97101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A58EE29B5BCCE00E97101 /* LaunchScreen.storyboard */; };
 		9A8A58F329B5BCCE00E97101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A58F229B5BCCE00E97101 /* main.m */; };
 		9A8A58FB29B608A800E97101 /* RssItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A58FA29B608A800E97101 /* RssItemsViewController.m */; };
 		9A8A590729B6F04A00E97101 /* RssItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A590629B6F04A00E97101 /* RssItemTableViewCell.m */; };
@@ -20,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		818EEDDF2B07C94700D53CA2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		818EEDE12B07C94E00D53CA2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A8A58DD29B5BCCD00E97101 /* RSS-Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSS-Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8A58E029B5BCCD00E97101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A8A58E129B5BCCD00E97101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,9 +29,7 @@
 		9A8A58E429B5BCCD00E97101 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9A8A58E629B5BCCD00E97101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A8A58E729B5BCCD00E97101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9A8A58EA29B5BCCD00E97101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A8A58EC29B5BCCE00E97101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A8A58EF29B5BCCE00E97101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A8A58F129B5BCCE00E97101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8A58F229B5BCCE00E97101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A8A58F929B608A800E97101 /* RssItemsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssItemsViewController.h; sourceTree = "<group>"; };
@@ -74,12 +74,12 @@
 				9A8A58E129B5BCCD00E97101 /* AppDelegate.m */,
 				9A8A58E329B5BCCD00E97101 /* SceneDelegate.h */,
 				9A8A58E429B5BCCD00E97101 /* SceneDelegate.m */,
+				818EEDE12B07C94E00D53CA2 /* LaunchScreen.storyboard */,
 				9A8A58E629B5BCCD00E97101 /* ViewController.h */,
 				9A8A58E729B5BCCD00E97101 /* ViewController.m */,
-				9A8A58E929B5BCCD00E97101 /* Main.storyboard */,
 				9A8A58EC29B5BCCE00E97101 /* Assets.xcassets */,
-				9A8A58EE29B5BCCE00E97101 /* LaunchScreen.storyboard */,
 				9A8A58F129B5BCCE00E97101 /* Info.plist */,
+				818EEDDF2B07C94700D53CA2 /* Main.storyboard */,
 				9A8A58F229B5BCCE00E97101 /* main.m */,
 				9A8A58F929B608A800E97101 /* RssItemsViewController.h */,
 				9A8A58FA29B608A800E97101 /* RssItemsViewController.m */,
@@ -148,9 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8A58F029B5BCCE00E97101 /* LaunchScreen.storyboard in Resources */,
+				818EEDE22B07C94E00D53CA2 /* LaunchScreen.storyboard in Resources */,
 				9A8A58ED29B5BCCE00E97101 /* Assets.xcassets in Resources */,
-				9A8A58EB29B5BCCD00E97101 /* Main.storyboard in Resources */,
+				818EEDE02B07C94700D53CA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,25 +172,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9A8A58E929B5BCCD00E97101 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A8A58EA29B5BCCD00E97101 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9A8A58EE29B5BCCE00E97101 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A8A58EF29B5BCCE00E97101 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9A8A58F429B5BCCE00E97101 /* Debug */ = {

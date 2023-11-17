@@ -22,6 +22,7 @@
     [super viewDidLoad];
     self.urlArray = [[NSMutableArray alloc] init];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     [self setupAddButton];
     [self setupUrlTextField];
     [self setupUrlTableView];
